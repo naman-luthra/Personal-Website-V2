@@ -2,7 +2,7 @@ import SkillComponent from "./SkillComponent";
 import {FaReact, FaGithubSquare} from "react-icons/fa";
 import {AiFillHtml5} from "react-icons/ai";
 import {DiCss3, DiJavascript1, DiNodejs} from "react-icons/di";
-import {SiMysql, SiTailwindcss} from "react-icons/si";
+import {SiMysql, SiTailwindcss, SiMongodb} from "react-icons/si";
 const skillsArr=[
     {
         domain:"frontEndDevelopment",
@@ -56,6 +56,18 @@ const skillsArr=[
         proficiency: 2,
         linkedinBadge: true,
         certificates:[]
+        
+    },
+    {
+        domain:"backEndDevelopment",
+        name:"MongoDB",
+        Icon: <SiMongodb className="w-36 h-36 my-4 text-mongo-green mx-auto"/>,
+        proficiency: 3,
+        linkedinBadge: true,
+        certificates:[{
+            name:"Linkedin Learning MongoDB",
+            link:"https://www.linkedin.com/learning/certificates/6f4d9838205353223e581575cd2690dc6b755a063dc554e563797774793c39e7",
+        }]
         
     },
     {

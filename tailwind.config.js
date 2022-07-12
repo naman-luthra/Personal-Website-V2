@@ -20,6 +20,7 @@ module.exports = {
         'gray-dark': '#273444',
         'dark-blue': '#0057ff',
         'neon-red': '#ff3131',
+        'mongo-green': '#14A851',
       }
     },
   },
