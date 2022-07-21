@@ -2,7 +2,7 @@ import SkillComponent from "./SkillComponent";
 import {FaReact, FaGithubSquare} from "react-icons/fa";
 import {AiFillHtml5} from "react-icons/ai";
 import {DiCss3, DiJavascript1, DiNodejs} from "react-icons/di";
-import {SiMysql, SiTailwindcss, SiMongodb} from "react-icons/si";
+import {SiMysql, SiTailwindcss, SiMongodb, SiTypescript, SiRedux} from "react-icons/si";
 const skillsArr=[
     {
         domain:"frontEndDevelopment",
@@ -46,6 +46,25 @@ const skillsArr=[
         Icon: <DiJavascript1 className="w-36 h-36 my-4 text-bright-yellow mx-auto"/>,
         proficiency: 4,
         linkedinBadge: true,
+        certificates:[]
+        
+    },
+    {
+        domain:"frontEndDevelopment",
+        name:"TypeScript",
+        Icon: <SiTypescript className="w-36 h-36 my-4 text-react-blue mx-auto"/>,
+        proficiency: 3,
+        linkedinBadge: false,
+        certificates:[]
+        
+    },
+    {
+
+        domain:"frontEndDevelopment",
+        name:"Redux.js",
+        Icon: <SiRedux className="w-36 h-36 my-4 text-purple-700 mx-auto"/>,
+        proficiency: 3,
+        linkedinBadge: false,
         certificates:[]
         
     },
