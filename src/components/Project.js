@@ -3,7 +3,7 @@ import {MdOpenInNew} from "react-icons/md";
 function Project({name,description,techstack,codebase,deployment,credential,projectsnap,justify,specialimageclasses}){
     return (
         <div className="my-10 md:my-20 relative">
-            <a target="_blank" className="hidden md:inline-block" href={deployment}>
+            <a target="_blank" rel="noreferrer" className="hidden md:inline-block" href={deployment}>
                 <div className={`inline-block absolute top-1 ${justify==="end" ? "left-0" : "right-0" } ${specialimageclasses ? specialimageclasses : "w-3/5"}`}>
                     <img className="hover:opacity-100 opacity-60 w-full" src={`https://drive.google.com/uc?export=view&id=${projectsnap}`} alt="" />
                 </div>
@@ -69,11 +69,11 @@ function Project({name,description,techstack,codebase,deployment,credential,proj
             <div className={`flex ${justify==="start" ? "justify-start" : "justify-end"} my-5 font-sans text-3xl font-bold`}>
                 {
                     codebase &&
-                    <a target="_blank" href={codebase}><FiGithub className="hover:text-react-blue inline mx-2"/></a>
+                    <a target="_blank" rel="noreferrer" href={codebase}><FiGithub className="hover:text-react-blue inline mx-2"/></a>
                 }
                 {
                     deployment &&
-                    <a target="_blank" href={deployment}><MdOpenInNew className="hover:text-mint-green inline mx-2"/></a>
+                    <a target="_blank" rel="noreferrer" href={deployment}><MdOpenInNew className="hover:text-mint-green inline mx-2"/></a>
                 }
             </div>
         </div>
