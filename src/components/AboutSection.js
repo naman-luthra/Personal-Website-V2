@@ -23,7 +23,7 @@ function AboutSection({setRef}){
                 <p className="my-6 text-base md:text-lg lg:text-xl text-white font-sans opacity-90 font-normal">
                     I am a pre-final year student pursuing Computer Science at Birla Institute of Technology and Science Pilani, Pilani Campus. I am interested in Full Stack Web Development, Cloud, Software Development and Machine Learning.
                 </p>
-                <a target="_blank" href="https://drive.google.com/file/d/1mHrJTGdXRmvTNDGLak9CWZnVycNn1Y11/view?usp=sharing">
+                <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1mHrJTGdXRmvTNDGLak9CWZnVycNn1Y11/view?usp=sharing">
                     <div className="inline-block mt-4 p-3 rounded-md font-semibold text-react-blue-light border-react-blue-light border-2 hover:bg-react-blue-light hover:text-matte-black">My Resume</div>
                 </a>
             </div>
