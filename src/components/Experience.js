@@ -2,10 +2,10 @@ import { useState } from "react";
 
 const ExperienceCard = ({data}) => {
     return (
-        <div className="flex flex-col gap-8 justify-center">
-            <img src={data.logo} alt="" className="w-1/4 h-auto"/>
+        <div className="flex flex-col gap-2 md:gap-8 justify-center">
+            <img src={data.logo} alt="" className="w-1/2 md:w-1/4 h-auto"/>
             <div className="text-white">
-                <div className="text-2xl font-bold">{data.title}</div>
+                <div className="text-xl md:text-2xl font-bold">{data.title}</div>
                 <div className="font-semibold mt-1">{data.start} - {data.end}</div>
                 <div className="text-lg font-medium mt-4">Skills Used</div>
                 <div className={`flex flex-wrap mt-1 font-mono text-sm font-thin`}>
@@ -77,7 +77,7 @@ export const Experience = () => {
         document.getElementById("experience").style.opacity=i;
     }
     return (
-        <div id="experience" className="flex flex-col justify-center border border-white p-10 rounded-md h-[600px] transition-opacity duration-1000">
+        <div id="experience" className="flex flex-col justify-center border border-white p-4 md:p-10 rounded-md md:h-[600px] transition-opacity duration-1000">
             <ExperienceCard data={data[selected]} />
             <div className="flex text-white font-semibold mt-10">
                 {

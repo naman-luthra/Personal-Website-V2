@@ -55,7 +55,7 @@ const startBubbleSimulation = ()=>{
 function MySkills({setRef}){
     useEffect(startBubbleSimulation,[]);
     return(
-        <div className="px-8 grid lg:grid-cols-2 gap-8 mt-20" ref={setRef}>
+        <div className="px-4 md:px-8 grid lg:grid-cols-2 gap-8 mt-20" ref={setRef}>
             <div className="lg:col-span-2 font-bold text-2xl text-white">Work Experience</div>
             <Experience />
             <div className="my-2 text-white text-center">
