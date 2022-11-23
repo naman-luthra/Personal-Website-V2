@@ -16,7 +16,7 @@ function App() {
     ref.current?.scrollIntoView({behavior: 'smooth'});
   };
   return (
-    <div className="App relative pt-20 pl-16">
+    <div className="App relative pt-20 md:pl-16">
       <NavBar about={about} skills={skills} projects={projects} handleClick={handleClick} />
       <img src="./icons/peakingRecangle.svg" className="w-2/3 absolute right-0 top-0 -z-40" alt="" />
       <SideLineLinks />

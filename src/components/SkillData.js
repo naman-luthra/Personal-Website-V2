@@ -4,7 +4,6 @@ import { useState } from "react";
 import {TbCertificate} from "react-icons/tb";
 function SkillData({Icon,name,proficiency,linkedinBadge,certificates}){
     const [certificatesVisible,setCertificatesVisible]=useState(false);
-    console.log(certificates);
     return (
         <div className="container rounded-md bg-matte-black p-2 sm:p-6 h-auto">
             {Icon}
