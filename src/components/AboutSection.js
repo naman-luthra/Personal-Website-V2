@@ -29,7 +29,7 @@ function AboutSection({setRef}){
             </div>
             <div className="basis-1/4 md:basis-1/3 lg:basis-1/2 relative">
                 <div className="hidden md:inline-block w-56 h-56 rounded-full bg-react-blue-light opacity-70 absolute left-4 top-28"></div>
-                <img src="./icons/profilePicture.png" className="w-36 sm:w-56 absolute top-24 right-2 md:left-0" alt="" />
+                <img src="./icons/profilePic2023.png" className="w-36 sm:w-56 absolute top-24 right-2 md:left-0" alt="" />
             </div>
         </div>
     );
