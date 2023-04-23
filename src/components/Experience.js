@@ -3,9 +3,10 @@ import { useState } from "react";
 const ExperienceCard = ({data}) => {
     return (
         <div className="flex flex-col gap-2 md:gap-8 justify-center">
-            <img src={data.logo} alt="" className="w-1/2 md:w-1/4 h-auto"/>
+            <img src={data.logo} alt="" className="h-16 w-fit"/>
             <div className="text-white">
                 <div className="text-xl md:text-2xl font-bold">{data.title}</div>
+                <div className="text-2xl md:text-3xl font-semibold">{data.company}</div>
                 <div className="font-semibold mt-1">{data.start} - {data.end}</div>
                 <div className="text-lg font-medium mt-4">Skills Used</div>
                 <div className={`flex flex-wrap mt-1 font-mono text-sm font-thin`}>
@@ -31,8 +32,8 @@ export const Experience = () => {
     const data = [
         {
             "title": "Geek-in-Residence, Full Stack",
-            "company": "basys.ai",
-            "logo": "https://www.basys.ai/img/logo.png",
+            "company": "Basys.ai",
+            "logo": "./Basys-White.webp",
             "techstack": [
                 "react",
                 "redux",
@@ -44,7 +45,7 @@ export const Experience = () => {
                 "git"
             ],
             "start": "August 2022",
-            "end": "Present",
+            "end": "March 2023",
             "keyPoints": [
                 "Developing basys.ai's flagship web app for healthcare providers and insurance companies",
                 "Handling full system and database schema design for the app with frontend and backend",
