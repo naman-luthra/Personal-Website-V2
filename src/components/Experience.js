@@ -47,9 +47,9 @@ export const Experience = () => {
             "start": "August 2022",
             "end": "March 2023",
             "keyPoints": [
-                "Developing basys.ai's flagship web app for healthcare providers and insurance companies",
-                "Handling full system and database schema design for the app with frontend and backend",
-                "Reporting directly to the founders and gaining hands on experience in software design and development",
+                "Worked on developing basys.ai's flagship web app for healthcare providers and insurance companies",
+                "Handled full system and database schema design for the app with frontend and backend",
+                "Reported directly to the founders and gaining hands on experience in software design and development",
                 "Selected from 2860 candidates that applied for the role from top institutes in India"
             ]
         },
