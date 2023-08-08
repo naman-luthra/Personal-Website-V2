@@ -21,7 +21,7 @@ function AboutSection({setRef}){
                     (Expected Graduation 2024)
                 </div>
                 <p className="my-6 text-base md:text-lg lg:text-xl text-white font-sans opacity-90 font-normal">
-                    I have recently intered at basys.ai a Harvard based Health Tech Startup where I worked on building full stack web applications using my skills. I have also interned in a US based Edtech startup bytelearn where I worked as a front end developer. I am also working towards my degree in Computer Science Engineering at one of India's top engineering universities Birla Institute of Technology and Science Pilani, Main Campus. I can help you build scalable and responsive web applications using my engineering skills :)
+                I am passionate about software development. I have completed several internships, where I gained valuable experience in designing, developing, testing and debugging software applications. I have strong knowledge of various programming languages, frameworks and tools, such as JavaScript, TypeScript, React, Node, Nest.js, Redux, SQL, Sequelize, Git, GitHub, AWS etc. I am eager to apply my skills and learn new technologies in a challenging and dynamic work environment. I am a team player, a quick learner and a problem solver with excellent communication and interpersonal skills.
                 </p>
                 <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1mHrJTGdXRmvTNDGLak9CWZnVycNn1Y11/view?usp=sharing">
                     <div className="inline-block mt-4 p-3 rounded-md font-semibold text-react-blue-light border-react-blue-light border-2 hover:bg-react-blue-light hover:text-matte-black">My Resume</div>

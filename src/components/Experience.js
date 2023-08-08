@@ -31,6 +31,25 @@ const ExperienceCard = ({data}) => {
 export const Experience = () => {
     const data = [
         {
+            "title": "Software Engineer Intern",
+            "company": "ClearFeed Inc.",
+            "logo": "./clearfeed-logo.jpeg",
+            "techstack": [
+                "typescript",
+                "nextjs",
+                "nestjs",
+                "sequelize",
+                "postgresql"
+            ],
+            "start": "May 2023",
+            "end": "August 2023",
+            "keyPoints": [
+                "Developed and contributed to both backend and frontend components as a full stack developer, utilizing technologies such as Next.js, Nest.js, and Sequelize.js",
+                "Successfully merged over 50 pull requests, driving the implementation of new features and resolving critical bugs, showcasing strong collaboration and problem-solving skills",
+                "Thrived in a fast-paced internship environment, actively participating in weekly production releases, demonstrating adaptability and delivering high-quality code under tight deadlines."
+            ]
+        },
+        {
             "title": "Geek-in-Residence, Full Stack",
             "company": "Basys.ai",
             "logo": "./Basys-White.webp",
