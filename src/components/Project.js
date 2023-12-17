@@ -1,6 +1,6 @@
 import {FiGithub, FiCopy, FiCheck} from "react-icons/fi";
 import {MdOpenInNew} from "react-icons/md";
-function Project({name,description,techstack,codebase,deployment,credential,projectsnap,justify,specialimageclasses}){
+function Project({name,description,techstack,repositories,deployment,credential,projectsnap,justify,specialimageclasses}){
     return (
         <div className="my-10 md:my-20 relative">
             <a target="_blank" rel="noreferrer" className="hidden md:inline-block" href={deployment}>
@@ -66,10 +66,18 @@ function Project({name,description,techstack,codebase,deployment,credential,proj
                     );
                 })}
             </div>
-            <div className={`flex ${justify==="start" ? "justify-start" : "justify-end"} my-5 font-sans text-3xl font-bold`}>
+            <div className={`flex ${justify==="start" ? "justify-start" : "justify-end"} gap-2 my-5 font-sans font-bold`}>
                 {
-                    codebase &&
-                    <a target="_blank" rel="noreferrer" href={codebase}><FiGithub className="hover:text-react-blue inline mx-2"/></a>
+                    repositories.length &&
+                    <>
+                        {
+                            repositories.map(({link,name},index)=>{
+                                return(
+                                    <a key={index} target="_blank" rel="noreferrer" href={link} className="flex gap-2 p-2 border rounded-lg items-center hover:text-react-blue hover:border-react-blue"><FiGithub className="inline text-2xl"/> {name}</a>
+                                );
+                            })
+                        }
+                    </>
                 }
                 {
                     deployment &&

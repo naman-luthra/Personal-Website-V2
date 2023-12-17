@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback } from "react";
 function Projects({setRef}){
     const [projectsArr, setProjectsArr]=useState([]);
     const fetchData=useCallback(()=>{
-        fetch('https://pwdata.namanluthra.repl.co/featuredProjects.json')
+        fetch('data/featuredProjects.json')
         .then(res=>res.json())
         .then((data)=>{setProjectsArr(data)});
     },[]);
